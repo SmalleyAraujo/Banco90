@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#pagina{
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:  #ba2d2d;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.imagemNav{
+    width: 13%;
+    height: auto;
+}
+
+
+
+#nav1{
+    width: 100%;
+    font-size: 15pt;  
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#nav2{
+    width: 100%;
+    display: flex;
+    justify-content:end;
+    margin-right: 30px;
+}    
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav2 a{
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;    
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 12pt;
+} 
+
+header{
+    width: 100%;
+    height: 550px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    display: flex;  
+    align-items: center; 
+
+}
+
+#bemVindo{
+    width: 35%;   
+    height: auto;
+    padding: 20px;  
+    background-color: rgba(255,255,0,0.3); ;
+    text-align: justify;
+    line-height: 50px;  
+    
+}
+
+#bemVindo h1{
+    text-align: center;
+    font-size: 18pt;
+
+}
+
+#linkHeader{
+    padding: 20px;
+    border: 2px solid rgb(243, 79, 3);
+    background-color: rgb(53, 52, 52);
+    border-radius: 5px;
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;      
+} 
+
+/* FIM header */
+
+
+
+main{
+    width: 100%;
+    height: auto;
+}
+ 
+
+/* INICIO FORMA DE PAGAMENTO */
+#escolha{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    line-height: 90px;
+}
+
+#forma{
+    width: 100%;
+    height: 350px;    
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+
+.imagemForma{
+    width: 300px;
+    height: 350px;   
+    border: 3px solid rgb(0, 0, 7);
+    border-radius: 3px;
+    
+}
+
+.imagemForma img{
+    width: 100px;
+    height: auto;
+    padding-top: 90px;
+}
+
+/* FIM FORMA DE PAGAMENTO */
+
+/* INICIO CONTRATE */
+
+.contrate{
+    width: 100%;
+    height: 350px;    
+    background-color: #302727;
+    text-align: justify;    
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#cont1{
+    width: 55%;
+    height: auto;
+   
+    padding: 20px;
+    color: white;
+    
+}
+
+#cont1 h2{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#cont2{
+    width: 45%;
+    height: 95%;    
+}
+
+.cont2Imagem{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+/* FIM CONTRATE */
+
+
+/* INICIO SEJA BEM VINDO */
+
+#seja{
+    width: 100%;
+    height: 500px;    
+    text-align: center;
+    line-height: 60px;
+
+
+}
+#seja1{
+    width: 100%;
+    height: 100px;
+      
+
+
+}
+
+#seja2{
+    width: 100%;
+    height: 340px;    
+    padding-top: 40px;
+    display: flex; 
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.seja2Post{
+    width: 230px;
+    height: 250px;
+
+}
+
+
+.seja2Imagem{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* FIM SEJA BEM VINDO */
+
+/* INICIO TABELA */
+
+#tabela{
+    width: 40%;
+    height: auto;
+    margin: 0px auto;
+    padding: 20px;
+    border: 2px outset rgb(205, 205, 223);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    /* experção de cor */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;   
+
+}
+
+/* BOX-SHADOW = padding(10px) + padding(px) + experção de cor(px) + cor(rgb) */
+
+
+table{
+    border-collapse: collapse;
+    /* border-collapse: collapse; pega todas as bordas do elemento e colapsa, junta*/
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ 
+
+th , td{
+    /* padding: 50px; */
+    height: 50px;
+    border: 2px solid rgb(219, 216, 216);
+    background-color: #ba2d2d;
+    color: white;
+    
+}
+
+#fundotd{
+    background-color: white;
+    color: black;
+    font-size: 11pt;
+}
+
+th:empty, td:empty{
+    background-color: white;
+    border: none;
+    /* empty = toda tag  que estiver vazio  */
+}
+
+
+
+/* FIM TABELA */
+footer{
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #ba2d2d;
+    color: white;
+    text-align: center;
+}
+
+/* INICIO FOOTER */
+
+
+
+/* FIM FOOTER */
+
+#colors{
+    background-color: #302727;
+    background-color: #ba2d2d;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}
